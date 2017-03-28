@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>android_teleop</name>
+  <version>0.1.0</version>
+  <description>
+    Android app for tele operating the robot.
+  </description>
+  <url type="website">http://imover.xyz/</url>
+  <url type="repository">https://github.com/imoverxyz/imover-robot</url>
+  <url type="bugtracker">https://github.com/imoverxyz/imover-robot/issues</url>
+  <maintainer email="ecorbellini@ekumenlabs.com">Ernesto Corbellini</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rosjava_build_tools</build_depend>
+  <build_depend>rosjava_bootstrap</build_depend>
+  <build_depend>android_core</build_depend>
+  <build_depend>android_extras</build_depend>
+  <build_depend>android_remocons</build_depend>
+  <build_depend>rosjava_messages</build_depend>
+  <build_depend>imover_msgs</build_depend>
+</package>
